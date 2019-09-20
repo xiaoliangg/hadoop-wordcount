@@ -10,7 +10,10 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
- 
+
+/**
+ * https://blog.csdn.net/boonya/article/details/54629816
+ */
 public class WordCount extends Configured implements Tool{
 	
 	public static void main(String[] args) throws Exception{
